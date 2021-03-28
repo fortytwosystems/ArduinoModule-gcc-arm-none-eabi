@@ -1,0 +1,34 @@
+{
+    "name": "gcc-arm-none-eabi",
+    "version": "10-2020q4",
+    "systems": [
+        {
+            "host": "aarch64-linux-gnu",
+            "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/%%LA64_FILENAME%%",
+            "archiveFileName": "%%LA64_FILENAME%%",
+            "checksum": "SHA-256:%%LA64_CHECKSUM%%",
+            "size": "%%LA64_SIZE%%"
+        },
+        {
+            "host": "i686-mingw32",
+            "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/%%WIN_FILENAME%%",
+            "archiveFileName": "%%WIN_FILENAME%%",
+            "checksum": "SHA-256:%%WIN_CHECKSUM%%",
+            "size": "%%WIN_SIZE%%"
+        },
+        {
+            "host": "x86_64-apple-darwin",
+            "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/%%OSX_FILENAME%%",
+            "archiveFileName": "%%OSX_FILENAME%%",
+            "checksum": "SHA-256:%%OSX_CHECKSUM%%",
+            "size": "%%OSX_SIZE%%"
+        },
+        {
+            "host": "x86_64-pc-linux-gnu",
+            "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/%%L64_FILENAME%%",
+            "archiveFileName": "%%L64_FILENAME%%",
+            "checksum": "SHA-256:%%L64_CHECKSUM%%",
+            "size": "%%L64_SIZE%%"
+        }
+    ]
+}
