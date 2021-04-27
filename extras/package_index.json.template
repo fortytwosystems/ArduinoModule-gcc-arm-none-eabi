@@ -3,6 +3,13 @@
     "version": "10-2020q4",
     "systems": [
         {
+            "host": "arm-linux-gnueabihf",
+            "url": "https://github.com/fortytwosystems/ArduinoModule-gcc-arm-none-eabi/releases/download/10-2020q4/%%LA32_FILENAME%%",
+            "archiveFileName": "%%LA32_FILENAME%%",
+            "checksum": "SHA-256:%%LA32_CHECKSUM%%",
+            "size": "%%LA32_SIZE%%"
+        },
+        {
             "host": "aarch64-linux-gnu",
             "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/%%LA64_FILENAME%%",
             "archiveFileName": "%%LA64_FILENAME%%",
